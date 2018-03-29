@@ -6,7 +6,7 @@ import Inventory from './Inventory'
 class App extends React.Component{
     constructor(){
         super();
-        this.addFish-this.addFish.bind(this);
+        this.addFish=this.addFish.bind(this);
 
         this.state={
             fishes: {},
